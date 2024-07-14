@@ -1,67 +1,19 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+{% include header.html %}
+
 <body>
-    <div class="container">
-        <header>
-            <h1>John Doe</h1>
-            <p>Web Developer</p>
-        </header>
+    {% include navbar.html %}
 
-        <section id="profile">
-            <h2>Profile</h2>
-            <p>A passionate web developer with experience in creating dynamic websites and web applications.</p>
-        </section>
+    {% include profile.html %}
 
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Web Developer</h3>
-                <p>ABC Company</p>
-                <p>June 2020 - Present</p>
-                <ul>
-                    <li>Developed and maintained the company website.</li>
-                    <li>Collaborated with the design team to implement new features.</li>
-                    <li>Optimized the website for better performance.</li>
-                </ul>
-            </div>
-        </section>
+    {% include projects.html %}
 
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Bachelor of Science in Computer Science</h3>
-                <p>XYZ University</p>
-                <p>2016 - 2020</p>
-            </div>
-        </section>
+    {% include experience.html %}
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: john.doe@example.com</p>
-            <p>Phone: (123) 456-7890</p>
-        </section>
-
-        <footer>
-            <p>&copy; 2024 John Doe. All rights reserved.</p>
-        </footer>
-    </div>
-    <script src="script.js"></script>
+    {% include education.html %}
 </body>
+
 </html>
