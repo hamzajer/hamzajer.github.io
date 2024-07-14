@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Template
 
 This is a Jekyll website template designed for Explorer Fellows. During the Fellowship, you'll generate a number of projects 
@@ -70,3 +71,6 @@ If you want to test it locally or add some new features, run the below commands.
 bundle install
 bundle exec jekyll serve
 ```
+=======
+GitHub Pages for my portfolio
+>>>>>>> ee1ed31690cb3eaf448a912d15fc4da618d7a865
