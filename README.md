@@ -1,76 +1,76 @@
-<<<<<<< HEAD
-# Portfolio Template
+<h2 align="center">
+  Portfolio Website - v2.0<br/>
+  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
 
-This is a Jekyll website template designed for Explorer Fellows. During the Fellowship, you'll generate a number of projects 
+<br/>
 
-This can also be used for Open Source and Externship Fellows but you might need to make some tweaks.
+<center>
 
-## Make your own!
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
 
-1. Fork this repository or use the Template button.
-2. Update `_config.yml` to contain your information.
-    1. Change `url` to be what your Github Pages will be (the name of the repository)
-    2. Make sure it has the /
-3. Go to the repository settings and turn on GitHub Pages
+</center>
 
-## Add your portfolio
+<h3 align="center">
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+</h3>
 
-Head to `_data` and fill out either `projects.yml`, `experience.yml` and `education.yml`.
+## TL;DR
 
-Project example.
-```yaml
-- title: Machine Learning Project
-  event: MLH Fellowship Explorer Sprint 3 - Batch 1
-  date: Fall 2020
-```
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
 
-Experience example.
-```yaml
-- role: Open Source Fellow
-  company: MLH Fellowship
-  dates: Summer 2020
-  logo: fellowship.svg
-```
+## Built With
 
-Education example.
-```yaml
-- course: Explorer Fellow
-  institute: MLH Fellowship
-  dates: Fall 2020
-  logo: fellowship.svg
-```
-## Add project posts
+My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-1. Make a new `.md` file inside of `projects`.
-2. Add the header to your markdown file (see below) and change the title to the name of your blog post.
-3. Write your project page! Can be a README from GitHub or your Devpost page.
-4. Add the `page-name` field to your `projects.yml` (see below).
+This project was built using these technologies.
 
-Top of post markdown file post.
-```
----
-title: Sprint 1 Project
-layout: page
----
-```
+- React.js
+- Node.js
+- Express.js
+- CSS3
+- VsCode
+- Vercel
 
-`projects.yml` with the `page-name` field.
+## Features
 
-```yaml
-- title: Machine Learning Project
-  event: MLH Fellowship Explorer Sprint 3 - Batch 1
-  date: Fall 2020
-  page-name: sprint1
-```
+**📖 Multi-Page Layout**
 
-## Development
+**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
-If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
+**📱 Fully Responsive**
 
-```
-bundle install
-bundle exec jekyll serve
-```
-=======
-GitHub Pages for my portfolio
->>>>>>> ee1ed31690cb3eaf448a912d15fc4da618d7a865
+## Getting Started
+
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+
+## 🛠 Installation and Setup Instructions
+
+1. Installation: `npm install`
+
+2. In the project directory, you can run: `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
+## Usage Instructions
+
+Open the project folder and Navigate to `/src/components/`. <br/>
+You will find all the components used and you can edit your information accordingly.
+
+### Show your support
+
+Give a ⭐ if you like this website!
+
+<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
